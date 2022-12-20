@@ -2,6 +2,9 @@
 больше 0 ввёл пользователь.
 0, 7, 8, -2, -2 -> 2
 1, -7, 567, 89, 223-> 3
+
+Не смогла решить эту задачу нормально, всё криво получалоь, начала гулить, и нашла вот это Array.ConvertAll(Console.ReadLine().Split(), int.Parse), и с ней легко решилось.
+
 */
 Console.Write("Введите элементы(через пробел): ");
 int[] arr = Array.ConvertAll(Console.ReadLine().Split(), int.Parse);
